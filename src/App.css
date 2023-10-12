@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.App {
+  background-color: #222;
+  color: white;
+  min-height: 100vh;
+}
+.scoresbtn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80vw;
+  height: 10vh;
+}
+
+.scoreInings {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  height: 50px;
+}
+
+.scnd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.scndInp {
+  margin: 10px 0px !important;
+}
+.btnModal {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.newBatsman {
+  flex-direction: column;
+}
+
+.Batsmanname {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.showStatsInnings {
+  margin: 15px 0;
+}
+
+.scoringcard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+}
+
+.scrcont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainpage {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.batsmanTable {
+  color: white !important;
+}
+.bName {
+  margin: 10px 0.5% !important ;
+  width: 49%;
+}
+
+.allStatsBtn {
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.hbt {
+  font-weight: 700;
+}
+
+.thisover {
+  display: flex;
+  align-items: center;
+}
+
+.thisoverscore {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.thisoverheading {
+  width: 20vh;
+}
+
+.teamnameheader {
+  display: flex;
+  align-items: center;
+}
+
+.stats {
+  margin: 10px 15px;
+}
+@media only screen and (min-width: 1000px) {
+  .scorebtn {
+    height: 70px;
+  }
+}
+@media only screen and (max-width: 790px) {
+  .allStatsBtn {
+    width: 70vw;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .allStatsBtn {
+    width: 90vw;
+  }
+}
+@media only screen and (max-height: 545px) {
+  .scoresbtn {
+    width: 95vw;
+    height: 20vh;
+  }
+}
+
+@media only screen and (max-height: 468px) {
+  .Batsmanname {
+    height: 150vh;
+  }
+}
+@media only screen and (max-height: 420px) {
+  .Batsmanname {
+    height: 200vh;
+  }
+  .App {
+    height: 150vh;
+  }
+}
+
+@media only screen and (max-width: 463px) {
+  .scoresbtn {
+    height: 30vh;
+  }
+  .mainpage {
+    height: 120vh;
+  }
+  .teamNameInp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+  }
+  .bName {
+    width: 90%;
+  }
+  .Batsmanname {
+    height: 130vh;
+  }
+  .allStatsBtn {
+    width: 100vw;
+  }
+  .nameb {
+    font-size: 12px !important;
+  }
+  .stats {
+    width: 100px;
+  }
+}
+
+@media only screen and (max-width: 435px) {
+  .showStatsInnings {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    flex-direction: column;
+  }
+  .nameb {
+    font-size: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 371px) {
+  .scoresbtn {
+    height: 35vh;
+  }
+}
+
+@media only screen and (max-width: 396px) {
+  .allStatsBtn {
+    flex-direction: column;
+    height: 30vw;
+  }
+}
+@media only screen and (max-width: 278px) {
+  .scoresbtn {
+    height: 35vh;
+  }
+}
